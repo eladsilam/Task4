@@ -52,6 +52,7 @@ for(let fileIndex = 1 ; fileIndex <= lenOfArr ; fileIndex++)
     }
     if (fileIndex<lenOfArr)
     {
+      // for better clearance
         fs.appendFileSync(pathToOutputTxt, "\n\n\n");
     }
 
